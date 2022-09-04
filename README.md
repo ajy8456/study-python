@@ -10,4 +10,10 @@ With `pip` after installing `python>=3.7`:
 pip install -r requirements.txt # --user
 ```
 
+With `conda`:
+
+```bash
+conda install -c conda-forge -r requirements.txt # |NOTE| need to be tested
+```
+
 See [requirements.txt](requirements.txt) for this case.
