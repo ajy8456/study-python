@@ -7,8 +7,13 @@ This repo was made for a study to use python fluently.
 With `pip` after installing `python>=3.7`:
 
 ```bash
-pip install -r requirements.txt # --user
-python -m ipykernel install --user --name study-python # conneting the kernel / 'study-python' is the name of the virtual environment
+pip install -r requirements.txt
+```
+
+With `conda`:
+
+```bash
+conda env create -f requirements.yml
 ```
 
 See [requirements.txt](requirements.txt) for this case.
